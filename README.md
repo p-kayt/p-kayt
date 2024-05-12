@@ -20,6 +20,9 @@ I'm a passionate front-end developer with a knack for turning designs into user-
 <a href="https://github.com/p-kayt" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
+<a href="mailto:trieuphamkt59@gmail.com" target="_blank">
+<img src="https://img.shields.io/badge/gmail-%23DD4B39.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt=gmail style="margin-bottom: 5px;" />
+</a> 
 <a href="https://www.facebook.com/pkhactrieu/" target="_blank">
 <img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
 </a> 
