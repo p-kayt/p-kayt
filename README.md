@@ -18,6 +18,19 @@ I'm a passionate front-end developer with a knack for turning designs into user-
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 </br>
+*  **JavaScript**  [![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)!(dark mode)[![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg)]
+*  **TypeScript**  [![TypeScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg)!(dark mode)[![TypeScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg)]
+*  **Java**  [![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg)]
+*  **HTML**  [![HTML](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg)!(dark mode)[![HTML](https://cdn.javascript.net/gh/devicons/devicon/icons/html5/html5-plain.svg)]
+*  **CSS**  [![CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg)!(dark mode)[![CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg)]
+*  **Bootstrap**  [![Bootstrap](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg)]
+*  **Material UI**  [![Material UI](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg)]
+*  **React**  [![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)]
+*  **NodeJS**  [![NodeJS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)]
+*  **Git**  [![Git](https://cdn.jsdelivr.net/gh/devicons/devicons/devicon/icons/git/git-original.svg)]
+*  **GitHub**  [![GitHub](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg)]
+*  **Bash**  [![Bash](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg)]
+
 
 
 ### Contact me  
