@@ -1,5 +1,6 @@
 ### Pham Khac Trieu 
 **`Front-End Developer`**
+</br>
 I'm a passionate front-end developer with a knack for turning designs into user-friendly and visually appealing interfaces. I leverage my expertise in HTML, CSS, and JavaScript/TypeScript to build responsive and performant experiences across all devices. I value collaboration and enjoy working closely with designers and back-end developers to bring our digital visions to fruition.
 
 ### 🧰 Languages and Tools
