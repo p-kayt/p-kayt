@@ -19,20 +19,6 @@ I'm a passionate front-end developer with a knack for turning designs into user-
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 </br>
 
- [![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg#gh-dark-mode-only)]([![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg#gh-light-mode-only)])
- [![TypeScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg#gh-dark-mode-only)]([![TypeScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg#gh-light-mode-only)])
- [![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg)]
- [![HTML](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg#gh-dark-mode-only)]([![HTML](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg#gh-light-mode-only)])
- [![CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg#gh-dark-mode-only)]([![CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg#gh-light-mode-only)])
- [![Bootstrap](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg)]
-[![Material UI](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg)]
-[![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)]
- [![NodeJS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)]
- [![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg)]
-  [![GitHub](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg)]
-[![Bash](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg)]
-
-
 
 ### Contact me  
 <div align="left">
