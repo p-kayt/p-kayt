@@ -1,4 +1,5 @@
 ### Pham Khac Trieu (pkayt)
+
 **`Front-End Developer`**
 </br>
 I'm a passionate front-end developer with a knack for turning designs into user-friendly and visually appealing interfaces. I leverage my expertise in HTML, CSS, and JavaScript/TypeScript to build responsive and performant experiences across all devices. I value collaboration and enjoy working closely with designers and back-end developers to bring our digital visions to fruition.
@@ -20,7 +21,8 @@ I'm a passionate front-end developer with a knack for turning designs into user-
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 </br>
 
-### Contact me  
+### Contact me
+
 <div align="left">
 <a href="https://github.com/p-kayt" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
@@ -45,4 +47,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+  -->
