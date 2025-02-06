@@ -55,19 +55,27 @@ const Portfolio = () => {
         </button>
       </header>
       <div className="portfolio-items">
-        <section id="home" className={`home ${theme}`}>
-          <h2>Home</h2>
+        <section id="home" className={`grid ${theme}`}>
+          <div className={`card ${theme}`}>
+            <h2>About Me</h2>
+            <h1>Hi, I'm Trieu</h1>
+            <p>
+              I am a passionate software developer with experience in building
+              web applications using modern technologies. I enjoy solving
+              complex problems and continuously learning new skills.
+            </p>
+          </div>
           {/* Content for Home */}
         </section>
-        <section id="skills">
+        <section id="skills" className={theme}>
           <h2>Skills</h2>
           {/* Content for Skills */}
         </section>
-        <section id="projects">
+        <section id="projects" className={theme}>
           <h2>Projects</h2>
           {/* Content for Projects */}
         </section>
-        <section id="contact">
+        <section id="contact" className={theme}>
           <h2>Contact</h2>
           {/* Content for Contact */}
         </section>

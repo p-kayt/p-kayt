@@ -4,29 +4,43 @@ $light-text-color: #333;
 $light-header-color: #444;
 $light-card-background-color: #fff;
 $light-border-color: #ddd;
+$light-card-solid-background-color: #ffffff;
 
 // Dark theme variables
-$dark-background-color: #242424;
+$dark-background-color: #101010;
 $dark-text-color: rgba(255, 255, 255, 0.87);
-$dark-header-color: rgba(255, 255, 255, 0.87);
-$dark-card-background-color: #333;
+$dark-header-color: rgba(86, 86, 86, 0.87);
+$dark-card-background-color: #282828;
 $dark-border-color: #444;
+$dark-card-solid-background-color: #1e1e1e;
 
 // Mixin to switch themes
 @mixin theme($theme) {
   @if $theme == "light" {
     background-color: $light-background-color;
     color: $light-text-color;
+    --grid-background-image: url("../assets/grid.svg");
     .portfolio-item {
       background-color: $light-card-background-color;
       border-color: $light-border-color;
     }
+    .card {
+      background-color: $light-card-solid-background-color;
+      color: $light-text-color;
+    }
   } @else if $theme == "dark" {
     background-color: $dark-background-color;
     color: $dark-text-color;
+    --grid-background-image: url("../assets/grid-dark.svg");
     .portfolio-item {
       background-color: $dark-card-background-color;
       border-color: $dark-border-color;
+    }
+    .card {
+      background-color: $dark-card-solid-background-color;
+      color: $dark-text-color;
+    }
+    .grid {
     }
   }
 }

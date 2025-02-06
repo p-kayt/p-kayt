@@ -1,4 +1,4 @@
-@import "variables.scss";
+@import "variables";
 
 // Portfolio Page Styles
 .portfolio {
@@ -26,14 +26,10 @@
     top: 0;
     z-index: 1000;
     transition: background-color 0.3s ease; // Smooth transition for background color
-
+    min-height: 70px;
     &.scrolled {
-      background-color: rgba(
-        255,
-        255,
-        255,
-        0.8
-      ); // Semi-transparent background color when scrolled
+      background-color: inherit; // Semi-transparent background color when scrolled
+      opacity: 0.65;
     }
 
     .portfolio-nav {
@@ -84,46 +80,29 @@
 
     section {
       padding: 20px;
-      height: 100vh; // Full viewport height for each section
-      background-color: inherit; // Inherit background color based on theme
-      border: 1px solid inherit; // Inherit border color based on theme
+      height: 100dvh;
+      background-color: inherit;
+      border: 1px solid inherit;
       border-radius: 8px;
+      position: relative;
 
-      h2 {
-        margin-bottom: 10px;
-        color: inherit; // Inherit text color based on theme
-      }
+      .card {
+        margin: 0 auto;
+        padding: 10px;
+        width: 80%;
+        border: solid 1px inherit;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        h1 {
+          color: inherit;
+          font-size: 2em;
+          margin: 0;
+        }
 
-      &.home {
-        background-image: radial-gradient(
-            circle at center,
-            rgba(255, 255, 255, 0.2) 0%,
-            transparent 100%
-          ),
-          linear-gradient(to right, rgba(0, 0, 255, 0.1) 1px, transparent 1px),
-          linear-gradient(to bottom, rgba(0, 0, 255, 0.1) 1px, transparent 1px);
-        background-size: 200px 200px, 40px 40px, 40px 40px;
-        background-position: center, 0 0, 0 0;
-
-        &.dark {
-          /* Change the grid color to light in dark mode */
-          background-image: radial-gradient(
-              circle at center,
-              rgba(255, 255, 255, 0.2) 0%,
-              transparent 100%
-            ),
-            linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.1) 1px,
-              transparent 1px
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.1) 1px,
-              transparent 1px
-            );
-          background-size: 200px 200px, 40px 40px, 40px 40px; /* Ensure the same size */
-          background-position: center, 0 0, 0 0;
+        h2 {
+          color: $dark-header-color;
+          font-size: 2em;
+          margin-bottom: 10px;
         }
       }
     }
@@ -136,4 +115,10 @@
     color: inherit; // Inherit text color based on theme
     border-top: 1px solid inherit; // Inherit border color based on theme
   }
+}
+
+.grid {
+  background-image: var(--grid-background-image);
+  background-size: 40px 40px;
+  background-repeat: repeat;
 }
