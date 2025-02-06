@@ -1,0 +1,56 @@
+// Light theme variables
+$light-background-color: #f4f4f4;
+$light-text-color: #333;
+$light-header-color: #444;
+$light-card-background-color: #fff;
+$light-border-color: #ddd;
+
+// Dark theme variables
+$dark-background-color: #242424;
+$dark-text-color: rgba(255, 255, 255, 0.87);
+$dark-header-color: rgba(255, 255, 255, 0.87);
+$dark-card-background-color: #333;
+$dark-border-color: #444;
+
+// Mixin to switch themes
+@mixin theme($theme) {
+  @if $theme == "light" {
+    background-color: $light-background-color;
+    color: $light-text-color;
+    .portfolio-item {
+      background-color: $light-card-background-color;
+      border-color: $light-border-color;
+    }
+  } @else if $theme == "dark" {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+    .portfolio-item {
+      background-color: $dark-card-background-color;
+      border-color: $dark-border-color;
+    }
+  }
+}
+
+// Mixin for light theme home section
+@mixin home-theme-light {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(0, 0, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 255, 0.1) 1px, transparent 1px);
+  background-size: 200px 200px, 40px 40px, 40px 40px;
+}
+
+// Mixin for dark theme home section
+@mixin home-theme-dark {
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 200px 200px, 40px 40px, 40px 40px;
+}

@@ -1,0 +1,139 @@
+@import "variables.scss";
+
+// Portfolio Page Styles
+.portfolio {
+  padding: 20px 0px;
+
+  &.dark {
+    @include theme(dark); // Apply dark theme
+  }
+
+  &.light {
+    @include theme(light); // Apply light theme
+  }
+
+  .portfolio-header {
+    display: flex;
+    justify-content: center; // Center the navigation
+    align-items: center;
+    padding: 10px 20px;
+    background-color: inherit; // Inherit background color based on theme
+    color: inherit; // Inherit text color based on theme
+    backdrop-filter: blur(10px); // Blur the content behind the navigation bar
+    border-bottom: 1px solid inherit; // Inherit border color based on theme
+    margin-bottom: 20px;
+    position: sticky; // Make the header stick to the top
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; // Smooth transition for background color
+
+    &.scrolled {
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.8
+      ); // Semi-transparent background color when scrolled
+    }
+
+    .portfolio-nav {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        color: inherit; // Inherit text color based on theme
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .theme-toggle {
+      position: absolute; // Position the theme toggle button
+      right: 20px; // Align it to the right
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 0.6em 1.2em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: #1a1a1a;
+      color: white;
+      cursor: pointer;
+      transition: border-color 0.25s;
+
+      &:hover {
+        border-color: #646cff;
+      }
+
+      &:focus,
+      &:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+      }
+    }
+  }
+
+  .portfolio-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
+    section {
+      padding: 20px;
+      height: 100vh; // Full viewport height for each section
+      background-color: inherit; // Inherit background color based on theme
+      border: 1px solid inherit; // Inherit border color based on theme
+      border-radius: 8px;
+
+      h2 {
+        margin-bottom: 10px;
+        color: inherit; // Inherit text color based on theme
+      }
+
+      &.home {
+        background-image: radial-gradient(
+            circle at center,
+            rgba(255, 255, 255, 0.2) 0%,
+            transparent 100%
+          ),
+          linear-gradient(to right, rgba(0, 0, 255, 0.1) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(0, 0, 255, 0.1) 1px, transparent 1px);
+        background-size: 200px 200px, 40px 40px, 40px 40px;
+        background-position: center, 0 0, 0 0;
+
+        &.dark {
+          /* Change the grid color to light in dark mode */
+          background-image: radial-gradient(
+              circle at center,
+              rgba(255, 255, 255, 0.2) 0%,
+              transparent 100%
+            ),
+            linear-gradient(
+              to right,
+              rgba(255, 255, 255, 0.1) 1px,
+              transparent 1px
+            ),
+            linear-gradient(
+              to bottom,
+              rgba(255, 255, 255, 0.1) 1px,
+              transparent 1px
+            );
+          background-size: 200px 200px, 40px 40px, 40px 40px; /* Ensure the same size */
+          background-position: center, 0 0, 0 0;
+        }
+      }
+    }
+  }
+
+  .portfolio-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: inherit; // Inherit background color based on theme
+    color: inherit; // Inherit text color based on theme
+    border-top: 1px solid inherit; // Inherit border color based on theme
+  }
+}
