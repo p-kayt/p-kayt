@@ -24,10 +24,6 @@ $dark-card-solid-background-color: #1e1e1e;
       background-color: $light-card-background-color;
       border-color: $light-border-color;
     }
-    .card {
-      background-color: $light-card-solid-background-color;
-      color: $light-text-color;
-    }
   } @else if $theme == "dark" {
     background-color: $dark-background-color;
     color: $dark-text-color;
@@ -36,10 +32,7 @@ $dark-card-solid-background-color: #1e1e1e;
       background-color: $dark-card-background-color;
       border-color: $dark-border-color;
     }
-    .card {
-      background-color: $dark-card-solid-background-color;
-      color: $dark-text-color;
-    }
+
     .grid {
     }
   }

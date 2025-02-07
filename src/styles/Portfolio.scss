@@ -80,7 +80,6 @@
 
     section {
       padding: 20px;
-      height: 100dvh;
       background-color: inherit;
       border: 1px solid inherit;
       border-radius: 8px;
@@ -89,8 +88,8 @@
       .card {
         margin: 0 auto;
         padding: 10px;
-        width: 80%;
-        border: solid 1px inherit;
+        width: 40%;
+
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         h1 {
@@ -103,6 +102,40 @@
           color: $dark-header-color;
           font-size: 2em;
           margin-bottom: 10px;
+        }
+      }
+
+      .btn-group {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: flex-start;
+      }
+
+      .skill-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: auto;
+        text-align: center;
+        transition: transform 0.3s;
+        &:hover {
+          transform: scale(1.05);
+        }
+        p {
+          margin: 0;
         }
       }
     }

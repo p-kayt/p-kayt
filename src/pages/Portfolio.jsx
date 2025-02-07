@@ -1,6 +1,27 @@
 import React, { useContext, useEffect } from "react";
 import { ThemeContext } from "../context/ThemeContext.jsx";
 import "../styles/Portfolio.scss";
+import "../styles/common.scss";
+import {
+  FileArrowDown,
+  FileArrowDownSolid,
+  GitHub,
+  GitHubSolid,
+  LinkedIn,
+  LinkedInSolid,
+} from "../assets/icons/icons.js";
+
+const skills = [
+  { name: "JavaScript" },
+  { name: "TypeScript" },
+  { name: "Java" },
+  { name: "ReactJS" },
+  { name: "Node.js" },
+  { name: "CSS" },
+  { name: "HTML" },
+  { name: "MongoDB" },
+  { name: "SQL" },
+];
 
 const Portfolio = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -54,21 +75,55 @@ const Portfolio = () => {
           Toggle to {theme === "light" ? "dark" : "light"} theme
         </button>
       </header>
+
       <div className="portfolio-items">
-        <section id="home" className={`grid ${theme}`}>
+        <section id="home" className={` ${theme}`}>
           <div className={`card ${theme}`}>
-            <h2>About Me</h2>
             <h1>Hi, I'm Trieu</h1>
+            <h3>Web developer</h3>
+            <h3>Ho Chi Minh City</h3>
             <p>
               I am a passionate software developer with experience in building
               web applications using modern technologies. I enjoy solving
               complex problems and continuously learning new skills.
             </p>
+            <div className="btn-group">
+              <button className="btn">
+                <img
+                  className="icon"
+                  src={theme === "dark" ? FileArrowDown : FileArrowDownSolid}
+                  alt="Download Resume"
+                />
+                Resume
+              </button>
+              <div className="social-btn">
+                <img
+                  className="social-icons"
+                  src={theme === "dark" ? LinkedIn : LinkedInSolid}
+                  alt="Linked In"
+                />
+              </div>
+              <div className="social-btn">
+                <img
+                  className="social-icons"
+                  src={theme === "dark" ? GitHub : GitHubSolid}
+                  alt="Git Hub"
+                />
+              </div>
+            </div>
           </div>
-          {/* Content for Home */}
         </section>
         <section id="skills" className={theme}>
-          <h2>Skills</h2>
+          <div className="card">
+            <h2>Skills</h2>
+            <div className="skills-list">
+              {skills.map((skill, index) => (
+                <div key={index} className="skill-card">
+                  <p>{skill.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
           {/* Content for Skills */}
         </section>
         <section id="projects" className={theme}>
