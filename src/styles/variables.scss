@@ -5,6 +5,12 @@ $light-header-color: #444;
 $light-card-background-color: #fff;
 $light-border-color: #ddd;
 $light-card-solid-background-color: #ffffff;
+$light-btn-text-color: #333;
+$light-btn-bg-color: #fff;
+$light-btn-border-color: #ddd;
+$light-btn-hover-text-color: #000;
+$light-btn-hover-bg-color: #e0e0e0;
+$light-btn-hover-border-color: #ccc;
 
 // Dark theme variables
 $dark-background-color: #101010;
@@ -13,6 +19,12 @@ $dark-header-color: rgba(86, 86, 86, 0.87);
 $dark-card-background-color: #282828;
 $dark-border-color: #444;
 $dark-card-solid-background-color: #1e1e1e;
+$dark-btn-text-color: rgba(255, 255, 255, 0.87);
+$dark-btn-bg-color: #282828;
+$dark-btn-border-color: #444;
+$dark-btn-hover-text-color: #fff;
+$dark-btn-hover-bg-color: #383838;
+$dark-btn-hover-border-color: #555;
 
 // Mixin to switch themes
 @mixin theme($theme) {
@@ -24,6 +36,16 @@ $dark-card-solid-background-color: #1e1e1e;
       background-color: $light-card-background-color;
       border-color: $light-border-color;
     }
+    .btn {
+      background-color: $light-btn-bg-color;
+      border-color: $light-btn-border-color;
+      color: $light-btn-text-color;
+      &:hover {
+        background-color: $light-btn-hover-bg-color;
+        border-color: $light-btn-hover-border-color;
+        color: $light-btn-hover-text-color;
+      }
+    }
   } @else if $theme == "dark" {
     background-color: $dark-background-color;
     color: $dark-text-color;
@@ -32,8 +54,15 @@ $dark-card-solid-background-color: #1e1e1e;
       background-color: $dark-card-background-color;
       border-color: $dark-border-color;
     }
-
-    .grid {
+    .btn {
+      background-color: $dark-btn-bg-color;
+      border-color: $dark-btn-border-color;
+      color: $dark-btn-text-color;
+      &:hover {
+        background-color: $dark-btn-hover-bg-color;
+        border-color: $dark-btn-hover-border-color;
+        color: $dark-btn-hover-text-color;
+      }
     }
   }
 }
